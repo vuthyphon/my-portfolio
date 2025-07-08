@@ -36,6 +36,8 @@ export default {
         ProjectCard
     },
     async mounted() {
+      console.log(import.meta.env.VITE_API_URL);
+
         const response = await axios.get('https://api.github.com/users/vuthyphon/repos?page=1&per_page=10', {
             headers: {
                 'Authorization': `Bearer ${import.meta.env.VITE_GITHUB_TOKEN}`,
