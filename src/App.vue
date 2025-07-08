@@ -7,8 +7,9 @@
 </template>
 
 <script>
+//impot data here
 import Hero from '@/components/home/Hero.vue'
-import NavBar from '@/components/navbar/NavBar.vue'
+import NavBar from '@/components/navbar/Nav.vue'
 import Footer from '@/components/footer/Footer.vue'
 export default {
   name: 'App',
