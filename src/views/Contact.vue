@@ -86,6 +86,11 @@ export default{
           subject: this.form.subject,
           email: this.form.email,
           message: this.form.message
+        },
+        {
+          headers: {
+            'Content-Type': 'application/json'
+          }
         });
         alert('Data submitted!');
       } catch (err) {
