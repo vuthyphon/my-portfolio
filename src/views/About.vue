@@ -6,6 +6,17 @@
         I am proficient in various programming languages including PHP, C#, and VB.net, and adept at leveraging modern frameworks and libraries such as Laravel, Codeigniter, and Vue.js to build efficient applications. My expertise extends to problem-solving, meticulous debugging, and ensuring code quality through comprehensive testing. I am also well-versed in version control systems like Git, facilitating seamless collaboration and effective project management.
         My experience has allowed me to contribute to various projects, honing my skills in creating impactful digital experiences and continuously adapting to new technologies to deliver high-quality results.
     </p>
+    <div class="mt-6">
+      <h3 class="font-semibold font-3xl mb-2">{{ $t('personalInformation') }}</h3>
+      <ul class="list-disc pl-6 space-y-1">
+        <li><strong>{{ $t('name') }}:</strong> Vuthy</li>
+        <li><strong>{{ $t('email') }}:</strong> vuthy@example.com</li>
+        <li><strong>{{ $t('location') }}:</strong> Phnom Penh, Cambodia</li>
+        <li><strong>{{ $t('languages') }}:</strong> Khmer, English</li>
+        <li><strong>{{ $t('education') }}:</strong> BSc in Computer Science</li>
+      </ul>
+    </div>
+
     <h3 class="mt-4 font-semibold">{{ $t('skills') }}</h3>
     <Skill/> 
   </div>

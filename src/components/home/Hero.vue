@@ -5,7 +5,7 @@
     <!-- Left Side -->
     <div class="w-full p-12 flex flex-row align-center justify-center">
       <div class="flex flex-col items-center">
-        <img src="@/assets/images/my-photo.png" alt="Profile" class="w-64 shadow-xl rounded-full" />
+        <img src="@/assets/images/myphoto.jpg" alt="Profile" class="shadow-xl w-64 h-64 rounded-full" />
 
         <p class="text-xl mt-2 animate-fade-in">Hi, I am</p>
         <h1 class="text-4xl font-bold mb-2 animate-slide-in">Phon Vuthy</h1>
