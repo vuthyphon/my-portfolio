@@ -7,13 +7,13 @@
         My experience has allowed me to contribute to various projects, honing my skills in creating impactful digital experiences and continuously adapting to new technologies to deliver high-quality results.
     </p>
     <div class="mt-6">
-      <h3 class="font-semibold font-3xl mb-2">{{ $t('personalInformation') }}</h3>
+      <h3 class="font-semibold font-3xl mb-2">Personal Information</h3>
       <ul class="list-disc pl-6 space-y-1">
-        <li><strong>{{ $t('name') }}:</strong> Vuthy</li>
-        <li><strong>{{ $t('email') }}:</strong> vuthy@example.com</li>
-        <li><strong>{{ $t('location') }}:</strong> Phnom Penh, Cambodia</li>
-        <li><strong>{{ $t('languages') }}:</strong> Khmer, English</li>
-        <li><strong>{{ $t('education') }}:</strong> BSc in Computer Science</li>
+        <li><strong>Name :</strong> Phon Vuthy</li>
+        <li><strong>Email:</strong> vuthyphon13@gmail.com</li>
+        <li><strong>Place of Birth:</strong> Sihanouk Province, Cambodia</li>
+        <li><strong>Languages:</strong> Khmer, English</li>
+        <li><strong>Education:</strong> BSc in Computer Science</li>
       </ul>
     </div>
 
